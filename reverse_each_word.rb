@@ -5,3 +5,5 @@ def reverse_each_word(string)
 end
 string.join(" ")
 end
+
+#had to store the results of #collect in a variable to then reference them. #collect might return the changed variable but it needs to be stored somewhere to be accessed. 
